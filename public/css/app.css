@@ -1,0 +1,70 @@
+.border-bottom{
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.ul{
+	display: inline-block;
+}
+
+.nav-item{
+	margin-left: 0;
+}
+
+.slash:after{
+	margin: 0 30px;
+	content: '/';
+	color: rgba(0,0,0,0.2);	
+	font-size: 25px;
+}
+.nav-link{
+	font-size: 25px;
+	color: rgba(0,0,0,0.5);
+	padding: 0;
+	display: inline-block;
+}
+
+.nav-link:hover{
+	color: rgba(0,0,0,0.2);	
+}
+
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 30px;
+}
+
+.progress {
+	background: #ebebeb; 
+}
+.progress-bar {
+	background: #0d2636;
+}
+
+.card{
+	min-height: 400px;
+	margin-bottom: 30px;
+}
+
+.card-text{
+	min-height: 70px;
+}
+.card-img-top{
+	height: 50% !important;
+	width: 50% !important;
+	text-align: center;
+	margin: 0 auto ; /* Added */
+	float: none ; /* Added */
+	margin-top: 10px;
+}
+
+.text-gray{
+	color: gray;
+}
+
+.social{
+	height: 40px;
+	width: 40px;
+}
