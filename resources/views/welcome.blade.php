@@ -63,7 +63,7 @@
 	<div class="row justify-content-center">
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="{{asset('img/github.jpg')}}" alt="Card image cap">
+				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="card-title">Wishlist App</h5>
 					<div class="card-subtitle text-gray">
@@ -76,7 +76,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="{{asset('img/github.jpg')}}" alt="Card image cap">
+				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="card-title">Movie Database</h5>
 					<div class="card-subtitle text-gray">School Project</div>
@@ -89,7 +89,7 @@
 	<div class="row justify-content-center border-bottom">
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="{{asset('img/github.jpg')}}" alt="Card image cap">
+				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="card-title">Other</h5>
 					<div class="card-subtitle text-gray">
@@ -102,7 +102,7 @@
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="{{asset('img/github.jpg')}}" alt="Card image cap">
+				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
 				<div class="card-body">
 					<h5 class="card-title">More coming</h5>
 					<div class="card-subtitle text-gray"></div>

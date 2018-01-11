@@ -12,7 +12,7 @@
 	<header>
 		<div class="container border-bottom" style="padding-bottom: 20px">
 			<div class="row justify-content-center">
-				<img class="img-responsive" src="{{asset('img/logo3.jpg')}}" alt="logo">
+				<img class="img-responsive" src="{{secure_asset('img/logo3.jpg')}}" alt="logo">
 			</div>
 			<nav class="navbar navbar-expand-lg justify-content-center">
 				<ul class="nav">
