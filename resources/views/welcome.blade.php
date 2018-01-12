@@ -63,52 +63,68 @@
 	<div class="row justify-content-center">
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				<a href="https://github.com/leonvdh94/wishlistapp" class="cardlink">
+					<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				</a>
 				<div class="card-body">
 					<h5 class="card-title">Wishlist App</h5>
 					<div class="card-subtitle text-gray">
 						School Project WIP
 					</div>
 					<p class="card-text">An online application to manage wishlists for events. Developed in React and Node.js.</p>
-					<a href="https://github.com/leonvdh94/wishlistapp" class="btn btn-primary">More info</a>
 				</div>
 			</div>
 		</div>
 		<div class="col-md-4">
 			<div class="card">
-				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				<a href="https://github.com/leonvdh94/moviedatabase" class="cardlink">
+					<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				</a>
 				<div class="card-body">
 					<h5 class="card-title">Movie Database</h5>
 					<div class="card-subtitle text-gray">School Project</div>
 					<p class="card-text">An online database for movies and tv-shows created with Laravel.</p>
-					<a href="https://github.com/leonvdh94/moviedatabase" class="btn btn-primary">More info</a>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row justify-content-center border-bottom">
-		<div class="col-md-4">
+	<div class="row justify-content-center">
+		<div class="col-md-4 border-bottom">
 			<div class="card">
-				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				<a href="https://github.com/leonvdh94" class="cardlink">
+					<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				</a>
 				<div class="card-body">
 					<h5 class="card-title">Other</h5>
 					<div class="card-subtitle text-gray">
 						
 					</div>
-					<p class="card-text">Check here for other projects made by me</p>
-					<a href="https://github.com/leonvdh94" class="btn btn-primary">More info</a>
+					<p class="card-text">Check here for other projects made by me.</p>
+					
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4">
+		<div class="col-md-4 border-bottom">
 			<div class="card">
-				<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				<a href="#" class="cardlink">
+					<img class="card-img-top" src="{{secure_asset('img/github.jpg')}}" alt="Card image cap">
+				</a>
 				<div class="card-body">
 					<h5 class="card-title">More coming</h5>
 					<div class="card-subtitle text-gray"></div>
 					<p class="card-text">Keep an eye out for more projects!</p>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+<div class="flip-container">
+	<div class="flip-cards">
+		<div class="front-card">
+			<img src="{{secure_asset('img/github.jpg')}}" alt="logo">
+		</div>
+		<div class="reverse-card">
+			<img src="{{secure_asset('img/github.jpg')}}" alt="logo">
 		</div>
 	</div>
 </div>
