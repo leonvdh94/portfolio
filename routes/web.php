@@ -6,5 +6,3 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('info', 'InfoController@index');
-Route::get('contact', 'ContactController@index');

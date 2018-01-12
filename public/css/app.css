@@ -23,6 +23,7 @@
 	color: rgba(0,0,0,0.5);
 	padding: 0;
 	display: inline-block;
+	transition: all .2s linear;
 }
 
 .nav-link:hover{
@@ -34,6 +35,10 @@ h1{
 }
 h2{
 	font-size: 30px;
+}
+
+.titlespace{
+	margin-bottom: 20px;
 }
 
 .progress {
@@ -54,9 +59,6 @@ h2{
 .card-img-top{
 	height: 50% !important;
 	width: 50% !important;
-/*	text-align: center;
-	margin: 0 auto ; 
-	float: none ; */
 	margin-top: 10px;
 }
 
@@ -75,49 +77,17 @@ h2{
 	width: 40px;
 }
 
-.flip-container
-{
-    position:relative;
-    -webkit-perspective:1000;
-    perspective:1000;
+.image {
+    overflow: hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
 }
-.flip-cards
-{
-    width:200px;
-    height:291px;
-    position:relative;
-    float:left;    
-    margin-left:5px;
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
+.image:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
 }
 
-
-.flip-cards:hover
-{
-    transform: rotateY( 180deg );
-    -webkit-transform: rotateY(180deg);
+footer{
+	margin-bottom: 50px;
+	color: #cccccc;
 }
-.flip-cards div
-{
-    width:200px;
-    height:291px;
-    position:absolute;
-    border-radius:15px;    
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
-
-.front-card
-{
-    z-index: 2;
-}
-
-.reverse-card
-{
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY( 180deg );
-}
-
